@@ -1,0 +1,54 @@
+//
+//  StorelinkCoreView.swift
+//  Storelink
+//
+import SwiftUI
+
+public struct StorelinkCoreView: UIViewControllerRepresentable {
+    var refreshToken: String
+    var logLevel: LogLevel?
+    var viewType: ViewType
+    var functionParams: [AnyHashable: Any]?
+    var onComplete: (([AnyHashable: Any]) -> Void)?
+    var brandName: String?
+    var logoUrl: String?
+
+    public init(
+      refreshToken: String,
+      logLevel: LogLevel? = nil,
+      viewType: ViewType = .backgroundTask,
+      functionParams: [AnyHashable: Any]? = nil,
+      onComplete: (([AnyHashable: Any]) -> Void)? = nil,
+      brandName: String? = nil,
+      logoUrl: String? = nil
+    ) {
+        self.refreshToken = refreshToken
+        self.viewType = viewType
+        self.logLevel = logLevel
+        self.functionParams = functionParams
+        self.onComplete = onComplete
+        self.brandName = brandName
+        self.logoUrl = logoUrl
+    }
+  
+    public typealias UIViewControllerType = UINavigationController
+
+    public func makeUIViewController(context: Context) -> UINavigationController {
+        // Create the SDKViewController with the refreshToken and viewType
+      let sdkVC = StorelinkCore.SDKHandler.SDKViewController(
+        refreshToken: refreshToken,
+        viewType: viewType,
+        logLevel: logLevel,
+        functionParams: functionParams,
+        onComplete: onComplete,
+        brandName: brandName,
+        logoUrl: logoUrl
+      )
+        let navigationController = UINavigationController(rootViewController: sdkVC)
+        return navigationController
+    }
+
+    public func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
+        // Update code if needed
+    }
+}

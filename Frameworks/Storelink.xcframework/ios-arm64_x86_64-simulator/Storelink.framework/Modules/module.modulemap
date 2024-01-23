@@ -1,0 +1,11 @@
+framework module Storelink {
+  umbrella header "Storelink.h"
+  export *
+
+  module * { export * }
+}
+
+module Storelink.Swift {
+  header "Storelink-Swift.h"
+  requires objc
+}

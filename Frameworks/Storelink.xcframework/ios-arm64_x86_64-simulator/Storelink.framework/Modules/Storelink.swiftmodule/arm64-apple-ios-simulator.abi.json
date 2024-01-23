@@ -1,0 +1,2454 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewType",
+        "printedName": "ViewType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backgroundTask",
+            "printedName": "backgroundTask",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.ViewType.Type) -> Storelink.ViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "Storelink.ViewType",
+                    "usr": "s:9Storelink8ViewTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.ViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "Storelink.ViewType",
+                        "usr": "s:9Storelink8ViewTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8ViewTypeO14backgroundTaskyA2CmF",
+            "mangledName": "$s9Storelink8ViewTypeO14backgroundTaskyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Var",
+            "name": "storeConnectionsList",
+            "printedName": "storeConnectionsList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.ViewType.Type) -> Storelink.ViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "Storelink.ViewType",
+                    "usr": "s:9Storelink8ViewTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.ViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "Storelink.ViewType",
+                        "usr": "s:9Storelink8ViewTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8ViewTypeO20storeConnectionsListyA2CmF",
+            "mangledName": "$s9Storelink8ViewTypeO20storeConnectionsListyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Var",
+            "name": "connectUpdateStore",
+            "printedName": "connectUpdateStore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.ViewType.Type) -> Storelink.ViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "Storelink.ViewType",
+                    "usr": "s:9Storelink8ViewTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.ViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "Storelink.ViewType",
+                        "usr": "s:9Storelink8ViewTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8ViewTypeO18connectUpdateStoreyA2CmF",
+            "mangledName": "$s9Storelink8ViewTypeO18connectUpdateStoreyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Var",
+            "name": "transferCart",
+            "printedName": "transferCart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.ViewType.Type) -> Storelink.ViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "Storelink.ViewType",
+                    "usr": "s:9Storelink8ViewTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.ViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "Storelink.ViewType",
+                        "usr": "s:9Storelink8ViewTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8ViewTypeO12transferCartyA2CmF",
+            "mangledName": "$s9Storelink8ViewTypeO12transferCartyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewType",
+                "printedName": "Storelink.ViewType",
+                "usr": "s:9Storelink8ViewTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewType",
+                "printedName": "Storelink.ViewType",
+                "usr": "s:9Storelink8ViewTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink8ViewTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9Storelink8ViewTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Storelink",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Storelink8ViewTypeO9hashValueSivp",
+            "mangledName": "$s9Storelink8ViewTypeO9hashValueSivp",
+            "moduleName": "Storelink",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Storelink8ViewTypeO9hashValueSivg",
+                "mangledName": "$s9Storelink8ViewTypeO9hashValueSivg",
+                "moduleName": "Storelink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink8ViewTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9Storelink8ViewTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Storelink",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Storelink8ViewTypeO",
+        "mangledName": "$s9Storelink8ViewTypeO",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.LogLevel.Type) -> Storelink.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Storelink.LogLevel",
+                    "usr": "s:9Storelink8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Storelink.LogLevel",
+                        "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8LogLevelO4noneyA2CmF",
+            "mangledName": "$s9Storelink8LogLevelO4noneyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.LogLevel.Type) -> Storelink.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Storelink.LogLevel",
+                    "usr": "s:9Storelink8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Storelink.LogLevel",
+                        "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8LogLevelO5debugyA2CmF",
+            "mangledName": "$s9Storelink8LogLevelO5debugyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.LogLevel.Type) -> Storelink.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Storelink.LogLevel",
+                    "usr": "s:9Storelink8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Storelink.LogLevel",
+                        "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8LogLevelO3devyA2CmF",
+            "mangledName": "$s9Storelink8LogLevelO3devyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "Storelink.LogLevel",
+                "usr": "s:9Storelink8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "Storelink.LogLevel",
+                "usr": "s:9Storelink8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9Storelink8LogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "Storelink",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Storelink8LogLevelO9hashValueSivp",
+            "mangledName": "$s9Storelink8LogLevelO9hashValueSivp",
+            "moduleName": "Storelink",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Storelink8LogLevelO9hashValueSivg",
+                "mangledName": "$s9Storelink8LogLevelO9hashValueSivg",
+                "moduleName": "Storelink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9Storelink8LogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "Storelink",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Storelink8LogLevelO",
+        "mangledName": "$s9Storelink8LogLevelO",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorelinkViewController",
+        "printedName": "StorelinkViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Storelink.StorelinkViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkViewController",
+                    "printedName": "Storelink.StorelinkViewController",
+                    "usr": "c:@M@Storelink@objc(cs)StorelinkViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Storelink@objc(cs)StorelinkViewController(im)initWithCoder:",
+            "mangledName": "$s9Storelink0A14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Storelink",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Storelink@objc(cs)StorelinkViewController(im)loadView",
+            "mangledName": "$s9Storelink0A14ViewControllerC04loadB0yyF",
+            "moduleName": "Storelink",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorelinkViewController",
+                "printedName": "Storelink.StorelinkViewController",
+                "usr": "c:@M@Storelink@objc(cs)StorelinkViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Storelink@objc(cs)StorelinkViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9Storelink0A14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Storelink",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Storelink@objc(cs)StorelinkViewController",
+        "mangledName": "$s9Storelink0A14ViewControllerC",
+        "moduleName": "Storelink",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorelinkCore",
+        "printedName": "StorelinkCore",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Configuration",
+            "printedName": "Configuration",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(refreshToken:logLevel:onStoreConnectionEvent:onInvoiceEvent:onCheckingStoreConnectionEvent:brandName:logoUrl:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "Storelink.StorelinkCore.Configuration",
+                    "usr": "s:9Storelink0A4CoreC13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Storelink.LogLevel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Storelink.LogLevel",
+                        "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel22onStoreConnectionEvent0h7InvoiceK00h8CheckingijK09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA2SSSSgATtcfc",
+                "mangledName": "$s9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel22onStoreConnectionEvent0h7InvoiceK00h8CheckingijK09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA2SSSSgATtcfc",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9Storelink0A4CoreC13ConfigurationV",
+            "mangledName": "$s9Storelink0A4CoreC13ConfigurationV",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SDKError",
+            "printedName": "SDKError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidRefreshToken",
+                "printedName": "invalidRefreshToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.SDKError.Type) -> Storelink.StorelinkCore.SDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "Storelink.StorelinkCore.SDKError",
+                        "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.SDKError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "Storelink.StorelinkCore.SDKError",
+                            "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO19invalidRefreshTokenyA2EmF",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO19invalidRefreshTokenyA2EmF",
+                "moduleName": "Storelink"
+              },
+              {
+                "kind": "Var",
+                "name": "unknownError",
+                "printedName": "unknownError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.SDKError.Type) -> Storelink.StorelinkCore.SDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "Storelink.StorelinkCore.SDKError",
+                        "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.SDKError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "Storelink.StorelinkCore.SDKError",
+                            "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO12unknownErroryA2EmF",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO12unknownErroryA2EmF",
+                "moduleName": "Storelink"
+              },
+              {
+                "kind": "Var",
+                "name": "nativeCommunicationError",
+                "printedName": "nativeCommunicationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.SDKError.Type) -> Storelink.StorelinkCore.SDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "Storelink.StorelinkCore.SDKError",
+                        "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.SDKError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKError",
+                            "printedName": "Storelink.StorelinkCore.SDKError",
+                            "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO24nativeCommunicationErroryA2EmF",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO24nativeCommunicationErroryA2EmF",
+                "moduleName": "Storelink"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "Storelink.StorelinkCore.SDKError",
+                    "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "Storelink.StorelinkCore.SDKError",
+                    "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "Storelink",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO9hashValueSivp",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO9hashValueSivp",
+                "moduleName": "Storelink",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Storelink0A4CoreC8SDKErrorO9hashValueSivg",
+                    "mangledName": "$s9Storelink0A4CoreC8SDKErrorO9hashValueSivg",
+                    "moduleName": "Storelink",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC8SDKErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9Storelink0A4CoreC8SDKErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "Storelink",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9Storelink0A4CoreC8SDKErrorO",
+            "mangledName": "$s9Storelink0A4CoreC8SDKErrorO",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PresentationMethod",
+            "printedName": "PresentationMethod",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "presentModally",
+                "printedName": "presentModally",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.PresentationMethod.Type) -> (UIKit.UIViewController) -> Storelink.StorelinkCore.PresentationMethod",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIViewController) -> Storelink.StorelinkCore.PresentationMethod",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(on: UIKit.UIViewController)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIViewController",
+                                "printedName": "UIKit.UIViewController",
+                                "usr": "c:objc(cs)UIViewController"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.PresentationMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC18PresentationMethodO14presentModallyyAESo16UIViewControllerC_tcAEmF",
+                "mangledName": "$s9Storelink0A4CoreC18PresentationMethodO14presentModallyyAESo16UIViewControllerC_tcAEmF",
+                "moduleName": "Storelink"
+              },
+              {
+                "kind": "Var",
+                "name": "pushOnNavigationStack",
+                "printedName": "pushOnNavigationStack",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.PresentationMethod.Type) -> (UIKit.UINavigationController) -> Storelink.StorelinkCore.PresentationMethod",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UINavigationController) -> Storelink.StorelinkCore.PresentationMethod",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(navigationController: UIKit.UINavigationController)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UINavigationController",
+                                "printedName": "UIKit.UINavigationController",
+                                "usr": "c:objc(cs)UINavigationController"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.PresentationMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC18PresentationMethodO21pushOnNavigationStackyAESo22UINavigationControllerC_tcAEmF",
+                "mangledName": "$s9Storelink0A4CoreC18PresentationMethodO21pushOnNavigationStackyAESo22UINavigationControllerC_tcAEmF",
+                "moduleName": "Storelink"
+              },
+              {
+                "kind": "Var",
+                "name": "embedInTab",
+                "printedName": "embedInTab",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Storelink.StorelinkCore.PresentationMethod.Type) -> (UIKit.UITabBarController, Swift.Int?) -> Storelink.StorelinkCore.PresentationMethod",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UITabBarController, Swift.Int?) -> Storelink.StorelinkCore.PresentationMethod",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(tabBarController: UIKit.UITabBarController, at: Swift.Int?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UITabBarController",
+                                "printedName": "UIKit.UITabBarController",
+                                "usr": "c:objc(cs)UITabBarController"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Int?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Int",
+                                    "printedName": "Swift.Int",
+                                    "usr": "s:Si"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Storelink.StorelinkCore.PresentationMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "Storelink.StorelinkCore.PresentationMethod",
+                            "usr": "s:9Storelink0A4CoreC18PresentationMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9Storelink0A4CoreC18PresentationMethodO10embedInTabyAESo18UITabBarControllerC_SiSgtcAEmF",
+                "mangledName": "$s9Storelink0A4CoreC18PresentationMethodO10embedInTabyAESo18UITabBarControllerC_SiSgtcAEmF",
+                "moduleName": "Storelink"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9Storelink0A4CoreC18PresentationMethodO",
+            "mangledName": "$s9Storelink0A4CoreC18PresentationMethodO",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SDKHandler",
+            "printedName": "SDKHandler",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(config:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKHandler",
+                    "printedName": "Storelink.StorelinkCore.SDKHandler",
+                    "usr": "s:9Storelink0A4CoreC10SDKHandlerC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "Storelink.StorelinkCore.Configuration",
+                    "usr": "s:9Storelink0A4CoreC13ConfigurationV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC6configAeC13ConfigurationV_tcfc",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC6configAeC13ConfigurationV_tcfc",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "SDKViewController",
+                "printedName": "SDKViewController",
+                "children": [
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(coder:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Storelink.StorelinkCore.SDKHandler.SDKViewController?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SDKViewController",
+                            "printedName": "Storelink.StorelinkCore.SDKHandler.SDKViewController",
+                            "usr": "s:9Storelink0A4CoreC10SDKHandlerC17SDKViewControllerC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSCoder",
+                        "printedName": "Foundation.NSCoder",
+                        "usr": "c:objc(cs)NSCoder"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9Storelink0A4CoreC10SDKHandlerC17SDKViewControllerC5coderAGSgSo7NSCoderC_tcfc",
+                    "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC17SDKViewControllerC5coderAGSgSo7NSCoderC_tcfc",
+                    "moduleName": "Storelink",
+                    "overriding": true,
+                    "implicit": true,
+                    "objc_name": "initWithCoder:",
+                    "declAttributes": [
+                      "Dynamic",
+                      "ObjC",
+                      "Custom",
+                      "Required"
+                    ],
+                    "init_kind": "Designated"
+                  }
+                ],
+                "declKind": "Class",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC17SDKViewControllerC",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC17SDKViewControllerC",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "superclassUsr": "c:@M@Storelink@objc(cs)StorelinkViewController",
+                "hasMissingDesignatedInitializers": true,
+                "inheritsConvenienceInitializers": true,
+                "superclassNames": [
+                  "Storelink.StorelinkViewController",
+                  "UIKit.UIViewController",
+                  "UIKit.UIResponder",
+                  "ObjectiveC.NSObject"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CVarArg",
+                    "printedName": "CVarArg",
+                    "usr": "s:s7CVarArgP",
+                    "mangledName": "$ss7CVarArgP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "_KeyValueCodingAndObservingPublishing",
+                    "printedName": "_KeyValueCodingAndObservingPublishing",
+                    "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                    "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "_KeyValueCodingAndObserving",
+                    "printedName": "_KeyValueCodingAndObserving",
+                    "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                    "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomStringConvertible",
+                    "printedName": "CustomStringConvertible",
+                    "usr": "s:s23CustomStringConvertibleP",
+                    "mangledName": "$ss23CustomStringConvertibleP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomDebugStringConvertible",
+                    "printedName": "CustomDebugStringConvertible",
+                    "usr": "s:s28CustomDebugStringConvertibleP",
+                    "mangledName": "$ss28CustomDebugStringConvertibleP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "UITraitChangeObservable",
+                    "printedName": "UITraitChangeObservable",
+                    "usr": "s:5UIKit23UITraitChangeObservableP",
+                    "mangledName": "$s5UIKit23UITraitChangeObservableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "getBackgroundView",
+                "printedName": "getBackgroundView()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkCoreView",
+                    "printedName": "Storelink.StorelinkCoreView",
+                    "usr": "s:9Storelink0A8CoreViewV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC17getBackgroundViewAA0abF0VyF",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC17getBackgroundViewAA0abF0VyF",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getConnectUpdateStoreView",
+                "printedName": "getConnectUpdateStoreView(storeId:onComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkCoreView",
+                    "printedName": "Storelink.StorelinkCoreView",
+                    "usr": "s:9Storelink0A8CoreViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC25getConnectUpdateStoreView7storeId10onCompleteAA0abH0VSS_ySDys11AnyHashableVypGcSgtF",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC25getConnectUpdateStoreView7storeId10onCompleteAA0abH0VSS_ySDys11AnyHashableVypGcSgtF",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getTransferCartView",
+                "printedName": "getTransferCartView(cartId:onComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkCoreView",
+                    "printedName": "Storelink.StorelinkCoreView",
+                    "usr": "s:9Storelink0A8CoreViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC19getTransferCartView6cartId10onCompleteAA0abG0VSS_ySDys11AnyHashableVypGcSgtF",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC19getTransferCartView6cartId10onCompleteAA0abG0VSS_ySDys11AnyHashableVypGcSgtF",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sendDataToReactNative",
+                "printedName": "sendDataToReactNative(data:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC21sendDataToReactNative4dataySDys11AnyHashableVypG_tF",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC21sendDataToReactNative4dataySDys11AnyHashableVypG_tF",
+                "moduleName": "Storelink",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9Storelink0A4CoreC10SDKHandlerC",
+            "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Storelink.StorelinkCore.SDKHandler, Storelink.StorelinkCore.SDKError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKHandler",
+                    "printedName": "Storelink.StorelinkCore.SDKHandler",
+                    "usr": "s:9Storelink0A4CoreC10SDKHandlerC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "Storelink.StorelinkCore.SDKError",
+                    "usr": "s:9Storelink0A4CoreC8SDKErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "Storelink.StorelinkCore.Configuration",
+                "usr": "s:9Storelink0A4CoreC13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink0A4CoreC6createys6ResultOyAC10SDKHandlerCAC8SDKErrorOGAC13ConfigurationVYaFZ",
+            "mangledName": "$s9Storelink0A4CoreC6createys6ResultOyAC10SDKHandlerCAC8SDKErrorOGAC13ConfigurationVYaFZ",
+            "moduleName": "Storelink",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9Storelink0A4CoreC",
+        "mangledName": "$s9Storelink0A4CoreC",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Storelink"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorelinkCoreView",
+        "printedName": "StorelinkCoreView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(refreshToken:logLevel:viewType:functionParams:onComplete:brandName:logoUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorelinkCoreView",
+                "printedName": "Storelink.StorelinkCoreView",
+                "usr": "s:9Storelink0A8CoreViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Storelink.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Storelink.LogLevel",
+                    "usr": "s:9Storelink8LogLevelO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewType",
+                "printedName": "Storelink.ViewType",
+                "hasDefaultArg": true,
+                "usr": "s:9Storelink8ViewTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Storelink0A8CoreViewV12refreshToken8logLevel8viewType14functionParams10onComplete9brandName7logoUrlACSS_AA03LogG0OSgAA0cI0OSDys11AnyHashableVypGSgyARcSgSSSgAUtcfc",
+            "mangledName": "$s9Storelink0A8CoreViewV12refreshToken8logLevel8viewType14functionParams10onComplete9brandName7logoUrlACSS_AA03LogG0OSgAA0cI0OSDys11AnyHashableVypGSgyARcSgSSSgAUtcfc",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<Storelink.StorelinkCoreView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkCoreView",
+                    "printedName": "Storelink.StorelinkCoreView",
+                    "usr": "s:9Storelink0A8CoreViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink0A8CoreViewV20makeUIViewController7contextSo012UINavigationF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
+            "mangledName": "$s9Storelink0A8CoreViewV20makeUIViewController7contextSo012UINavigationF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<Storelink.StorelinkCoreView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StorelinkCoreView",
+                    "printedName": "Storelink.StorelinkCoreView",
+                    "usr": "s:9Storelink0A8CoreViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Storelink0A8CoreViewV22updateUIViewController_7contextySo012UINavigationF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
+            "mangledName": "$s9Storelink0A8CoreViewV22updateUIViewController_7contextySo012UINavigationF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
+            "moduleName": "Storelink",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Storelink0A8CoreViewV",
+        "mangledName": "$s9Storelink0A8CoreViewV",
+        "moduleName": "Storelink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 17,
+      "value": "\"BACKGROUND_TASK\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 24,
+      "value": "\"STORE_CONNECTIONS_LIST\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 22,
+      "value": "\"CONNECT_UPDATE_STORE\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 15,
+      "value": "\"TRANSFER_CART\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 716,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 34,
+      "value": "\"cooklist_sdk_view_complete_event\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2208,
+      "length": 9,
+      "value": "\"storeId\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 19,
+      "value": "\"_cooklistInternal\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 45,
+      "value": "\"cooklist_sdk_event_eager_check_bg_purchases\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2411,
+      "length": 9,
+      "value": "\"storeId\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2501,
+      "length": 24,
+      "value": "\"CooklistDataFromNative\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2742,
+      "length": 37,
+      "value": "\"Storelink.bundle\/storelink.jsbundle\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 14,
+      "value": "\"refreshToken\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2898,
+      "length": 10,
+      "value": "\"logLevel\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2946,
+      "length": 10,
+      "value": "\"viewType\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 10,
+      "value": "\"viewUUID\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3034,
+      "length": 11,
+      "value": "\"brandName\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3074,
+      "length": 9,
+      "value": "\"logoUrl\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3194,
+      "length": 16,
+      "value": "\"functionParams\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3563,
+      "length": 10,
+      "value": "\"viewUUID\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 18,
+      "value": "\"StorelinkProject\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 23,
+      "value": "\"Storelink.StorelinkViewController\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1931,
+      "length": 20,
+      "value": "\"cooklist_sdk_event\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 3419,
+      "length": 9,
+      "value": "\"storeId\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 3806,
+      "length": 8,
+      "value": "\"cartId\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4209,
+      "length": 14,
+      "value": "\"functionName\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 24,
+      "value": "\"onStoreConnectionEvent\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 16,
+      "value": "\"onInvoiceEvent\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4513,
+      "length": 32,
+      "value": "\"onCheckingStoreConnectionEvent\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 5086,
+      "length": 24,
+      "value": "\"CooklistDataFromNative\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/StorelinkModule.swift",
+      "kind": "Array",
+      "offset": 248,
+      "length": 26,
+      "value": "[\"CooklistDataFromNative\"]"
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/StorelinkModule.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 24,
+      "value": "\"CooklistDataFromNative\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/StorelinkModule.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 24,
+      "value": "\"CooklistDataFromNative\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/StorelinkModule.swift",
+      "kind": "StringLiteral",
+      "offset": 94,
+      "length": 15,
+      "value": "\"Storelink.StorelinkModule\""
+    }
+  ]
+}

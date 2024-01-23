@@ -1,0 +1,6 @@
+framework module react_native_storelink {
+  umbrella header "react-native-storelink-umbrella.h"
+
+  export *
+  module * { export * }
+}
