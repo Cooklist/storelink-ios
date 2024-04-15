@@ -175,6 +175,43 @@
             "moduleName": "Storelink"
           },
           {
+            "kind": "Var",
+            "name": "deviceUuid",
+            "printedName": "deviceUuid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Storelink.ViewType.Type) -> Storelink.ViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "Storelink.ViewType",
+                    "usr": "s:9Storelink8ViewTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Storelink.ViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "Storelink.ViewType",
+                        "usr": "s:9Storelink8ViewTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Storelink8ViewTypeO10deviceUuidyA2CmF",
+            "mangledName": "$s9Storelink8ViewTypeO10deviceUuidyA2CmF",
+            "moduleName": "Storelink"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -766,7 +803,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(refreshToken:logLevel:onStoreConnectionEvent:onInvoiceEvent:onCheckingStoreConnectionEvent:brandName:logoUrl:)",
+                "printedName": "init(refreshToken:logLevel:onConfigurationSuccess:onStoreConnectionEvent:onInvoiceEvent:onCheckingStoreConnectionEvent:brandName:logoUrl:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -790,6 +827,46 @@
                         "name": "LogLevel",
                         "printedName": "Storelink.LogLevel",
                         "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
                       }
                     ],
                     "hasDefaultArg": true,
@@ -947,8 +1024,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel22onStoreConnectionEvent0h7InvoiceK00h8CheckingijK09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA2SSSSgATtcfc",
-                "mangledName": "$s9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel22onStoreConnectionEvent0h7InvoiceK00h8CheckingijK09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA2SSSSgATtcfc",
+                "usr": "s:9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA3TSSSgAUtcfc",
+                "mangledName": "$s9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL09brandName7logoUrlAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA3TSSSgAUtcfc",
                 "moduleName": "Storelink",
                 "declAttributes": [
                   "AccessControl",
@@ -2180,245 +2257,259 @@
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 327,
       "length": 17,
       "value": "\"BACKGROUND_TASK\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 392,
       "length": 24,
       "value": "\"STORE_CONNECTIONS_LIST\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 462,
       "length": 22,
       "value": "\"CONNECT_UPDATE_STORE\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 524,
       "length": 15,
       "value": "\"TRANSFER_CART\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 13,
+      "value": "\"DEVICE_UUID\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 753,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 716,
+      "offset": 787,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 748,
+      "offset": 819,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 1016,
       "length": 34,
       "value": "\"cooklist_sdk_view_complete_event\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1860,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2208,
+      "offset": 2279,
       "length": 9,
       "value": "\"storeId\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2304,
+      "offset": 2375,
       "length": 19,
       "value": "\"_cooklistInternal\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2325,
+      "offset": 2396,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2341,
+      "offset": 2412,
       "length": 11,
       "value": "\"eventType\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2425,
       "length": 45,
       "value": "\"cooklist_sdk_event_eager_check_bg_purchases\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2411,
+      "offset": 2482,
       "length": 9,
       "value": "\"storeId\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 2572,
       "length": 24,
       "value": "\"CooklistDataFromNative\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2742,
+      "offset": 2813,
       "length": 37,
       "value": "\"Storelink.bundle\/storelink.jsbundle\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 2923,
       "length": 14,
       "value": "\"refreshToken\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2898,
+      "offset": 2969,
       "length": 10,
       "value": "\"logLevel\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2946,
+      "offset": 3017,
       "length": 10,
       "value": "\"viewType\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 3067,
       "length": 10,
       "value": "\"viewUUID\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3105,
       "length": 11,
       "value": "\"brandName\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3074,
+      "offset": 3145,
       "length": 9,
       "value": "\"logoUrl\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3265,
       "length": 16,
       "value": "\"functionParams\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3563,
+      "offset": 3634,
       "length": 10,
       "value": "\"viewUUID\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3897,
       "length": 18,
       "value": "\"StorelinkProject\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 851,
       "length": 23,
       "value": "\"Storelink.StorelinkViewController\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 2139,
       "length": 20,
       "value": "\"cooklist_sdk_event\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 3419,
+      "offset": 3775,
       "length": 9,
       "value": "\"storeId\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 3806,
+      "offset": 4162,
       "length": 8,
       "value": "\"cartId\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4565,
       "length": 14,
       "value": "\"functionName\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 4305,
+      "offset": 4661,
+      "length": 24,
+      "value": "\"onConfigurationSuccess\""
+    },
+    {
+      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4773,
       "length": 24,
       "value": "\"onStoreConnectionEvent\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 4417,
+      "offset": 4885,
       "length": 16,
       "value": "\"onInvoiceEvent\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 4513,
+      "offset": 4981,
       "length": 32,
       "value": "\"onCheckingStoreConnectionEvent\""
     },
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 5086,
+      "offset": 5554,
       "length": 24,
       "value": "\"CooklistDataFromNative\""
     },

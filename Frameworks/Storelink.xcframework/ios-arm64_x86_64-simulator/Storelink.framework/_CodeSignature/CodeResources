@@ -27,7 +27,7 @@
 		</data>
 		<key>Headers/StorelinkCore.swift</key>
 		<data>
-		ThmiSazM87WhVPrvJJ2IDkRNah0=
+		Vyoyb4Qn4YNQ5FwESnccQLJgv+w=
 		</data>
 		<key>Headers/StorelinkCoreView.swift</key>
 		<data>
@@ -39,11 +39,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SbSl4eNSvH9jcVEH8LuKI2IB6+g=
+		nPZsENW7S2Kv4ca7p40zZYxGE3I=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YndkSbeI+dznzbtMBTYzeRjCz8o=
+		oPwT33QRRR4uqf5aMpFyieezm98=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -51,19 +51,19 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YndkSbeI+dznzbtMBTYzeRjCz8o=
+		oPwT33QRRR4uqf5aMpFyieezm98=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ulDeWkdoS9Gv5t1Dm3BWAG3/toY=
+		G26/qWpXYaGSCbDsT9v09yK6fKc=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SbSl4eNSvH9jcVEH8LuKI2IB6+g=
+		nPZsENW7S2Kv4ca7p40zZYxGE3I=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UBlodTa8fo2fmJyu/kUwL+6c3Bw=
+		81wa+QrbMgmgtwqL4VLJBwB8xPg=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -71,11 +71,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UBlodTa8fo2fmJyu/kUwL+6c3Bw=
+		81wa+QrbMgmgtwqL4VLJBwB8xPg=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zz3O3dLxnVbw+SU1V9cUEtSGA+Y=
+		5P3HfuHjGPSUZkgedNu8tWEwu48=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		</data>
 		<key>PrivateHeaders/StorelinkViewController.swift</key>
 		<data>
-		sS9BGdpf732pjbwf2Xt7mlprpvw=
+		xgCqs25bKEnKkQImuED/BOfLLPI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			htakOT3+LdL2qISHSvn9Jeu513K4ZT0NZiLxwb3Nmvs=
+			HXE1rn1k0PeoPSkZtKizfBASp0Lgg+rZr9QkuRTZx3k=
 			</data>
 		</dict>
 		<key>Headers/StorelinkCoreView.swift</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6F74GiYLEDXgxzKGBPk/ouX/Df3l9NDeBMcElbVc46E=
+			wO8iLMZFZlQiL791LoCo8epj3Qv3jQhiR+JxcbOwwYA=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWOh1r7/s8CAAgPeuY9XR563Wf3wFnYzn9xUwW7MuOE=
+			35aQor1fAErf8F8gHcrryV7hNFFEde+fxOTERjTlTHk=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWOh1r7/s8CAAgPeuY9XR563Wf3wFnYzn9xUwW7MuOE=
+			35aQor1fAErf8F8gHcrryV7hNFFEde+fxOTERjTlTHk=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pYuqNC8r51GZUTWumH65gRJq1itdmnBUOsKWXHYO7PY=
+			iO0llBaW9BMsc7mPdbCUywR3q7wyYj6B+uiCKDWZGhA=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6F74GiYLEDXgxzKGBPk/ouX/Df3l9NDeBMcElbVc46E=
+			wO8iLMZFZlQiL791LoCo8epj3Qv3jQhiR+JxcbOwwYA=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5g/S04S7XArcezE+721CW0J/ooN8MfvapFIQirkUfs=
+			LZ/dtDDPHPknYsNHWrXaCHxiROBZtOuAai9ZrpmPIAo=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +192,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5g/S04S7XArcezE+721CW0J/ooN8MfvapFIQirkUfs=
+			LZ/dtDDPHPknYsNHWrXaCHxiROBZtOuAai9ZrpmPIAo=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u/YxAEjdLyuN4eA0sZqLDt9h9AqGIVr/xUUxc1+rxO8=
+			f9nuvoTiiSAMij0CM4n4oPadFSWYVI2tQDUPdXGY24A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -213,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdIf7JyCCt+w+bIKuZmgCE9laESuYQvcpmuI4d2wveA=
+			u5thS2xvyrKQSu8OJv4AxGlmvS9JeF9PRPE+HlwPylM=
 			</data>
 		</dict>
 	</dict>

@@ -17,6 +17,7 @@ public enum ViewType {
   case storeConnectionsList
   case connectUpdateStore
   case transferCart
+  case deviceUuid
   public static func == (a: Storelink.ViewType, b: Storelink.ViewType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -40,7 +41,7 @@ public enum LogLevel {
 }
 @_hasMissingDesignatedInitializers public class StorelinkCore {
   public struct Configuration {
-    public init(refreshToken: Swift.String, logLevel: Storelink.LogLevel? = nil, onStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onInvoiceEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onCheckingStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, brandName: Swift.String? = nil, logoUrl: Swift.String? = nil)
+    public init(refreshToken: Swift.String, logLevel: Storelink.LogLevel? = nil, onConfigurationSuccess: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onInvoiceEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onCheckingStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, brandName: Swift.String? = nil, logoUrl: Swift.String? = nil)
   }
   public enum SDKError : Swift.Error {
     case invalidRefreshToken
