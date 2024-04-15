@@ -27,11 +27,11 @@
 		</data>
 		<key>Headers/StorelinkCore.swift</key>
 		<data>
-		Vyoyb4Qn4YNQ5FwESnccQLJgv+w=
+		NLD95day40xqyuoJGrcWNelD9hs=
 		</data>
 		<key>Headers/StorelinkCoreView.swift</key>
 		<data>
-		IBfPpE3+VheE5Mlyp/1DG2rVfhc=
+		g715uo19MbUBApjLm8mqTLH9TOo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -39,11 +39,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nPZsENW7S2Kv4ca7p40zZYxGE3I=
+		3l7G+IwCngAsGX2FiKsS01NULPg=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oPwT33QRRR4uqf5aMpFyieezm98=
+		yK6wOc9rz9hCVIxJNxPN313Pv48=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -51,19 +51,19 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oPwT33QRRR4uqf5aMpFyieezm98=
+		yK6wOc9rz9hCVIxJNxPN313Pv48=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G26/qWpXYaGSCbDsT9v09yK6fKc=
+		HS1r6Gw8eQkUcFbIu9B9mbYJmf0=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nPZsENW7S2Kv4ca7p40zZYxGE3I=
+		3l7G+IwCngAsGX2FiKsS01NULPg=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		81wa+QrbMgmgtwqL4VLJBwB8xPg=
+		wflzdzkn9Wyu6fwPtXNbZeTdQEs=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -71,11 +71,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		81wa+QrbMgmgtwqL4VLJBwB8xPg=
+		wflzdzkn9Wyu6fwPtXNbZeTdQEs=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5P3HfuHjGPSUZkgedNu8tWEwu48=
+		EOcV6SJGRb70Kb8NKq37vOrCfB8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		</data>
 		<key>PrivateHeaders/StorelinkViewController.swift</key>
 		<data>
-		xgCqs25bKEnKkQImuED/BOfLLPI=
+		gN14KbCpq/xuQQsIwHp1bBiztNU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,28 +122,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXE1rn1k0PeoPSkZtKizfBASp0Lgg+rZr9QkuRTZx3k=
+			8kxVtenEy/I9SWwpBAZXOSQyPrNzyD+y00rxIIv0Qvc=
 			</data>
 		</dict>
 		<key>Headers/StorelinkCoreView.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VloeOZpPllHKijpIBruSqKjZcgqxrvxYajrMg78aLyA=
+			wnr7uoZz5FhBr+B5GypXZ20+AY7+Na5N31LeOp3iQE8=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wO8iLMZFZlQiL791LoCo8epj3Qv3jQhiR+JxcbOwwYA=
+			TU0Ma+pE8oJ+KCY0L1hCxaZ99Ya0IGU6RuPL//IgpJQ=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			35aQor1fAErf8F8gHcrryV7hNFFEde+fxOTERjTlTHk=
+			4gWRz/c+Zk6gtW6M1rAhoYvKPw1nu2XoONi+xrlJznc=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			35aQor1fAErf8F8gHcrryV7hNFFEde+fxOTERjTlTHk=
+			4gWRz/c+Zk6gtW6M1rAhoYvKPw1nu2XoONi+xrlJznc=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iO0llBaW9BMsc7mPdbCUywR3q7wyYj6B+uiCKDWZGhA=
+			hYLodKG0PbVvYpksU/0MBzQ0c0HnkWejCNAl2+wFntg=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wO8iLMZFZlQiL791LoCo8epj3Qv3jQhiR+JxcbOwwYA=
+			TU0Ma+pE8oJ+KCY0L1hCxaZ99Ya0IGU6RuPL//IgpJQ=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LZ/dtDDPHPknYsNHWrXaCHxiROBZtOuAai9ZrpmPIAo=
+			sjrAsrHnLykGkSAm6IcXMMMTpwj7ubOiRkV3m0dxLio=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +192,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LZ/dtDDPHPknYsNHWrXaCHxiROBZtOuAai9ZrpmPIAo=
+			sjrAsrHnLykGkSAm6IcXMMMTpwj7ubOiRkV3m0dxLio=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9nuvoTiiSAMij0CM4n4oPadFSWYVI2tQDUPdXGY24A=
+			6+e1KZi6yll18nbzmz1FQrIMke8zxDG1Ezh57lyCtCw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -213,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u5thS2xvyrKQSu8OJv4AxGlmvS9JeF9PRPE+HlwPylM=
+			p8Wv+3SLHgc7VSC3jKpxnybMt1TiZy8UP+9thM9dA4o=
 			</data>
 		</dict>
 	</dict>
