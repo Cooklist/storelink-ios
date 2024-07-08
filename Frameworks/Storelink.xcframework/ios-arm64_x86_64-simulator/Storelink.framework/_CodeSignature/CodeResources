@@ -6,7 +6,7 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		DveIRqqdLy5xRv+QUpmKPBf/rR4=
+		z/KSqG8FWDxmOSHMR6qbYB4VYig=
 		</data>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -19,7 +19,7 @@
 		</dict>
 		<key>Headers/Storelink-Swift.h</key>
 		<data>
-		xH1vbqvqwZWdS8scwE5AqGZtks0=
+		PbUR5PSIcYbqBzCC0hmtmIu3Me0=
 		</data>
 		<key>Headers/Storelink.h</key>
 		<data>
@@ -35,47 +35,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hYVXH1JLPgC5IDWiQ6Zb2R5HBNQ=
+		ciKf3apWciYpI7gCwCEe1os5hq8=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3l7G+IwCngAsGX2FiKsS01NULPg=
+		Su+4Zs2X2GVt7jjh7FNxiYik/j4=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yK6wOc9rz9hCVIxJNxPN313Pv48=
+		fPMCfXfgw/UBPwAFXYgnQSyUFZ4=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		98QH7aeSTK6fdiBYo4fdH6LjUsQ=
+		OW8C1L3w10AJeET/02uSDtkopa8=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yK6wOc9rz9hCVIxJNxPN313Pv48=
+		fPMCfXfgw/UBPwAFXYgnQSyUFZ4=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HS1r6Gw8eQkUcFbIu9B9mbYJmf0=
+		3vf7mpUMmmeF4qIkzei971m9k0w=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3l7G+IwCngAsGX2FiKsS01NULPg=
+		Su+4Zs2X2GVt7jjh7FNxiYik/j4=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wflzdzkn9Wyu6fwPtXNbZeTdQEs=
+		AM6NK8JsZh0u2bT4UCs4MhvgvKE=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+MmilM062x2vo+d6vjMeZkBq51U=
+		Sj4pfWQ8T4Da0B7+362Z6Ghypjo=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wflzdzkn9Wyu6fwPtXNbZeTdQEs=
+		AM6NK8JsZh0u2bT4UCs4MhvgvKE=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EOcV6SJGRb70Kb8NKq37vOrCfB8=
+		XsPxRoF8+W6thSyc3NR/YCg62j4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Yf8C983RVtcAkxb3bugp2RxJDsANvEWXhS8xc6X6CQ=
+			QMGUjKmci95QDRkQ2lKwRPcZzJLUvmba8yXDSaG7EMo=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
@@ -108,7 +108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pw9inNEGbCLvvprGU4y+Tan9llgdtFEzj27t++6LK+o=
+			h1U1dLwtZakvFG+aNIK+lzN1Axmx86SP+LNk8WxPQFc=
 			</data>
 		</dict>
 		<key>Headers/Storelink.h</key>
@@ -136,70 +136,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TU0Ma+pE8oJ+KCY0L1hCxaZ99Ya0IGU6RuPL//IgpJQ=
+			mZSEsNU328yhR2+fgn6GXRO8FiFJhj6O418C8YB98nU=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gWRz/c+Zk6gtW6M1rAhoYvKPw1nu2XoONi+xrlJznc=
+			Nbh7uRSz3kl9M5XrrkDOGrUU+yH2B08bO9pnF5BpF+0=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+qUXVNHmFlIN/k3k7+LgIznVGQfIxAYCF4DNgT0few=
+			xFFCjPNBvnilrk+MZA3ZHYveZn8v7r9Pa4BQWsHKTFo=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gWRz/c+Zk6gtW6M1rAhoYvKPw1nu2XoONi+xrlJznc=
+			Nbh7uRSz3kl9M5XrrkDOGrUU+yH2B08bO9pnF5BpF+0=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hYLodKG0PbVvYpksU/0MBzQ0c0HnkWejCNAl2+wFntg=
+			rABi1sCbz7kP4PZvW2nMNW/dqhxjCda9QF0K5LD0KpI=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TU0Ma+pE8oJ+KCY0L1hCxaZ99Ya0IGU6RuPL//IgpJQ=
+			mZSEsNU328yhR2+fgn6GXRO8FiFJhj6O418C8YB98nU=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjrAsrHnLykGkSAm6IcXMMMTpwj7ubOiRkV3m0dxLio=
+			S18QmhEKKY6UU2GPX8lBF2lm+9fwv/vxnpVfZh8D8rw=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tc4++TXGSzSvc2AIm+N1YBBaK69Dg8kvINehzrtOyyE=
+			3ECcXexcLoZrRBRXhan9Xl09KESSt+EH7ajDJWvKzeQ=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjrAsrHnLykGkSAm6IcXMMMTpwj7ubOiRkV3m0dxLio=
+			S18QmhEKKY6UU2GPX8lBF2lm+9fwv/vxnpVfZh8D8rw=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6+e1KZi6yll18nbzmz1FQrIMke8zxDG1Ezh57lyCtCw=
+			S3TO23xPYxG+yrMb17HPw2h72rHAr3cU+rUpumMGRBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
