@@ -76,9 +76,9 @@ public enum LogLevel {
 }
 public struct StorelinkCoreView : SwiftUI.UIViewControllerRepresentable {
   public init(refreshToken: Swift.String, logLevel: Storelink.LogLevel? = nil, viewType: Storelink.ViewType = .backgroundTask, functionParams: [Swift.AnyHashable : Any]? = nil, onComplete: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, brandName: Swift.String? = nil, logoUrl: Swift.String? = nil, _devApiLocation: Swift.String? = nil)
-  public typealias UIViewControllerType = UIKit.UINavigationController
-  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: Storelink.StorelinkCoreView.Context) -> UIKit.UINavigationController
-  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: Storelink.StorelinkCoreView.Context)
+  public typealias UIViewControllerType = UIKit.UIViewController
+  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: Storelink.StorelinkCoreView.Context) -> UIKit.UIViewController
+  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UIViewController, context: Storelink.StorelinkCoreView.Context)
   public typealias Body = Swift.Never
   public typealias Coordinator = Swift.Void
 }

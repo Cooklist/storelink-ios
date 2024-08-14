@@ -2143,9 +2143,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -2163,8 +2163,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Storelink0A8CoreViewV20makeUIViewController7contextSo012UINavigationF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
-            "mangledName": "$s9Storelink0A8CoreViewV20makeUIViewController7contextSo012UINavigationF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
+            "usr": "s:9Storelink0A8CoreViewV20makeUIViewController7contextSo0eF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
+            "mangledName": "$s9Storelink0A8CoreViewV20makeUIViewController7contextSo0eF0C7SwiftUI0eF20RepresentableContextVyACG_tF",
             "moduleName": "Storelink",
             "declAttributes": [
               "Custom",
@@ -2184,9 +2184,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -2204,8 +2204,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Storelink0A8CoreViewV22updateUIViewController_7contextySo012UINavigationF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
-            "mangledName": "$s9Storelink0A8CoreViewV22updateUIViewController_7contextySo012UINavigationF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
+            "usr": "s:9Storelink0A8CoreViewV22updateUIViewController_7contextySo0eF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
+            "mangledName": "$s9Storelink0A8CoreViewV22updateUIViewController_7contextySo0eF0C_7SwiftUI0eF20RepresentableContextVyACGtF",
             "moduleName": "Storelink",
             "declAttributes": [
               "Custom",
@@ -2234,9 +2234,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
                   }
                 ]
               },

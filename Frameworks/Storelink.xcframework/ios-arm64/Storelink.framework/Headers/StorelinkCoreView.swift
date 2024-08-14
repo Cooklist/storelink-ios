@@ -34,9 +34,9 @@ public struct StorelinkCoreView: UIViewControllerRepresentable {
         self._devApiLocation = _devApiLocation
     }
   
-    public typealias UIViewControllerType = UINavigationController
+    public typealias UIViewControllerType = UIViewController
 
-    public func makeUIViewController(context: Context) -> UINavigationController {
+    public func makeUIViewController(context: Context) -> UIViewController {
         // Create the SDKViewController with the refreshToken and viewType
       let sdkVC = StorelinkCore.SDKHandler.SDKViewController(
         refreshToken: refreshToken,
@@ -48,11 +48,10 @@ public struct StorelinkCoreView: UIViewControllerRepresentable {
         logoUrl: logoUrl,
         _devApiLocation: _devApiLocation
       )
-        let navigationController = UINavigationController(rootViewController: sdkVC)
-        return navigationController
+        return sdkVC
     }
 
-    public func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
+    public func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
         // Update code if needed
     }
 }
