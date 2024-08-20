@@ -803,7 +803,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(refreshToken:logLevel:onConfigurationSuccess:onStoreConnectionEvent:onInvoiceEvent:onCheckingStoreConnectionEvent:brandName:logoUrl:_devApiLocation:)",
+                "printedName": "init(refreshToken:logLevel:onConfigurationSuccess:onStoreConnectionEvent:onInvoiceEvent:onCheckingStoreConnectionEvent:onSignOut:brandName:logoUrl:_devApiLocation:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -827,6 +827,46 @@
                         "name": "LogLevel",
                         "printedName": "Storelink.LogLevel",
                         "usr": "s:9Storelink8LogLevelO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
                       }
                     ],
                     "hasDefaultArg": true,
@@ -1039,8 +1079,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL09brandName7logoUrl15_devApiLocationAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA3USSSgA2Vtcfc",
-                "mangledName": "$s9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL09brandName7logoUrl15_devApiLocationAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA3USSSgA2Vtcfc",
+                "usr": "s:9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL00H7SignOut9brandName7logoUrl15_devApiLocationAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA4VSSSgA2Wtcfc",
+                "mangledName": "$s9Storelink0A4CoreC13ConfigurationV12refreshToken8logLevel02onC7Success0H20StoreConnectionEvent0h7InvoiceL00h8CheckingjkL00H7SignOut9brandName7logoUrl15_devApiLocationAESS_AA03LogG0OSgySDys11AnyHashableVypGcSgA4VSSSgA2Wtcfc",
                 "moduleName": "Storelink",
                 "declAttributes": [
                   "AccessControl",
@@ -1830,37 +1870,18 @@
               },
               {
                 "kind": "Function",
-                "name": "sendDataToReactNative",
-                "printedName": "sendDataToReactNative(data:)",
+                "name": "signOut",
+                "printedName": "signOut()",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.AnyHashable : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:9Storelink0A4CoreC10SDKHandlerC21sendDataToReactNative4dataySDys11AnyHashableVypG_tF",
-                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC21sendDataToReactNative4dataySDys11AnyHashableVypG_tF",
+                "usr": "s:9Storelink0A4CoreC10SDKHandlerC7signOutyyF",
+                "mangledName": "$s9Storelink0A4CoreC10SDKHandlerC7signOutyyF",
                 "moduleName": "Storelink",
                 "declAttributes": [
                   "AccessControl"
@@ -2301,7 +2322,7 @@
     {
       "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2427,
       "length": 20,
       "value": "\"cooklist_sdk_event\""
     },

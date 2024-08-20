@@ -40,7 +40,7 @@ public enum LogLevel {
 }
 @_hasMissingDesignatedInitializers public class StorelinkCore {
   public struct Configuration {
-    public init(refreshToken: Swift.String, logLevel: Storelink.LogLevel? = nil, onConfigurationSuccess: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onInvoiceEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onCheckingStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, brandName: Swift.String? = nil, logoUrl: Swift.String? = nil, _devApiLocation: Swift.String? = nil)
+    public init(refreshToken: Swift.String, logLevel: Storelink.LogLevel? = nil, onConfigurationSuccess: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onInvoiceEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onCheckingStoreConnectionEvent: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, onSignOut: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil, brandName: Swift.String? = nil, logoUrl: Swift.String? = nil, _devApiLocation: Swift.String? = nil)
   }
   public enum SDKError : Swift.Error {
     case invalidRefreshToken
@@ -67,7 +67,7 @@ public enum LogLevel {
     public func getBackgroundView() -> Storelink.StorelinkCoreView
     public func getConnectUpdateStoreView(storeId: Swift.String, onComplete: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil) -> Storelink.StorelinkCoreView
     public func getTransferCartView(cartId: Swift.String, onComplete: (([Swift.AnyHashable : Any]) -> Swift.Void)? = nil) -> Storelink.StorelinkCoreView
-    public func sendDataToReactNative(data: [Swift.AnyHashable : Any])
+    public func signOut()
   }
   #if compiler(>=5.3) && $AsyncAwait
   public static func create(_ config: Storelink.StorelinkCore.Configuration) async -> Swift.Result<Storelink.StorelinkCore.SDKHandler, Storelink.StorelinkCore.SDKError>

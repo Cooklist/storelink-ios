@@ -27,7 +27,7 @@
 		</data>
 		<key>Headers/StorelinkCore.swift</key>
 		<data>
-		NLD95day40xqyuoJGrcWNelD9hs=
+		hqgNjh7MejIOAk4g+FUBC2RWgKs=
 		</data>
 		<key>Headers/StorelinkCoreView.swift</key>
 		<data>
@@ -39,11 +39,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bZViUleHFCCeVTBtNGt6wS/KzeI=
+		wDMAjc44oc6hD1qGGxbE0lKWsxY=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2g6f1QXgvHonMDJWFUIcP0I2DfM=
+		Jn0Fb4pBVNQtkEnERHbaAE2od/k=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -51,19 +51,19 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2g6f1QXgvHonMDJWFUIcP0I2DfM=
+		Jn0Fb4pBVNQtkEnERHbaAE2od/k=
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zcDMTdmv9pLZ76fMz3iBwUp0zCE=
+		Cf7pUp/K9XUNsITNtLXmXTD2ius=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bZViUleHFCCeVTBtNGt6wS/KzeI=
+		wDMAjc44oc6hD1qGGxbE0lKWsxY=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TkX1tSpmzRpzWGH3FJKxoifaWik=
+		pnu7fCM8iTAbNxd/zBkbiyRjW2E=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -71,11 +71,11 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TkX1tSpmzRpzWGH3FJKxoifaWik=
+		pnu7fCM8iTAbNxd/zBkbiyRjW2E=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VRl/xcejjeEUqet8eif5Bvs/u8I=
+		y4b69V49/SAbquCFd7uMSUJoQxo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kxVtenEy/I9SWwpBAZXOSQyPrNzyD+y00rxIIv0Qvc=
+			CuKbu4Td8+zJ7TkMp084N0rvC+z4TTijbZIs6HcxtbA=
 			</data>
 		</dict>
 		<key>Headers/StorelinkCoreView.swift</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3J7oYgZZOZzfwVmk5nUKJT/U5Z/UIR6iKHEkVQSd/I=
+			Rfoy+PCOgDXWggNYeFVHA+U6tMdMY6IjcGpNMEDIGYo=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNa1N7oLLk7UiBG1fL1S1E8qSKMQptdqegASnGIs7e0=
+			J2Dbkd+3C1IxU+3M/qpRF6MGjzEZJCt6kWrX7aFMNa4=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNa1N7oLLk7UiBG1fL1S1E8qSKMQptdqegASnGIs7e0=
+			J2Dbkd+3C1IxU+3M/qpRF6MGjzEZJCt6kWrX7aFMNa4=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uSLQp8YE46PZPa2MH58jUgV1pT0UE0EUGGkhOUKAfKg=
+			U9jtFGs9Djp3bU2vVwBlnIusCTZrWuHjqelXmI3mUp4=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3J7oYgZZOZzfwVmk5nUKJT/U5Z/UIR6iKHEkVQSd/I=
+			Rfoy+PCOgDXWggNYeFVHA+U6tMdMY6IjcGpNMEDIGYo=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EFy5WBj5Hksd7bolwUEvAoKiqaJMU85NsKQum2iPrLs=
+			Gq1Ptk40dtH+vbRHm+/cM1EOv/OOnnTbgxH5/7IilcI=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +192,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EFy5WBj5Hksd7bolwUEvAoKiqaJMU85NsKQum2iPrLs=
+			Gq1Ptk40dtH+vbRHm+/cM1EOv/OOnnTbgxH5/7IilcI=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmNtR8ub33XZ/pi0X1wYLSPGhVPsJYIMDpoPdHLjLzA=
+			A0Uvj6eG8u9bgm5+0z/uS+0NRFKDZzJxjxY6BK+tuog=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -15,6 +15,7 @@ public class StorelinkCore {
         let onStoreConnectionEvent: (([AnyHashable: Any]) -> Void)?
         let onInvoiceEvent: (([AnyHashable: Any]) -> Void)?
         let onCheckingStoreConnectionEvent: (([AnyHashable: Any]) -> Void)?
+        let onSignOut: (([AnyHashable: Any]) -> Void)?
         let brandName: String?
         let logoUrl: String?
         let _devApiLocation: String?
@@ -26,6 +27,7 @@ public class StorelinkCore {
             onStoreConnectionEvent: (([AnyHashable: Any]) -> Void)? = nil,
             onInvoiceEvent: (([AnyHashable: Any]) -> Void)? = nil,
             onCheckingStoreConnectionEvent: (([AnyHashable: Any]) -> Void)? = nil,
+            onSignOut: (([AnyHashable: Any]) -> Void)? = nil,
             brandName: String? = nil,
             logoUrl: String? = nil,
             _devApiLocation: String? = nil
@@ -36,6 +38,7 @@ public class StorelinkCore {
             self.onStoreConnectionEvent = onStoreConnectionEvent
             self.onInvoiceEvent = onInvoiceEvent
             self.onCheckingStoreConnectionEvent = onCheckingStoreConnectionEvent
+            self.onSignOut = onSignOut
             self.brandName = brandName
             self.logoUrl = logoUrl
             self._devApiLocation = _devApiLocation
@@ -65,6 +68,7 @@ public class StorelinkCore {
         private var onStoreConnectionEvent: (([AnyHashable: Any]) -> Void)?
         private var onInvoiceEvent: (([AnyHashable: Any]) -> Void)?
         private var onCheckingStoreConnectionEvent: (([AnyHashable: Any]) -> Void)?
+        private var onSignOut: (([AnyHashable: Any]) -> Void)?
         
         public init(config: Configuration) {
             self.config = config
@@ -72,6 +76,7 @@ public class StorelinkCore {
             self.onStoreConnectionEvent = config.onStoreConnectionEvent
             self.onInvoiceEvent = config.onInvoiceEvent
             self.onCheckingStoreConnectionEvent = config.onCheckingStoreConnectionEvent
+            self.onSignOut = config.onSignOut
             setupNotificationObservers()
         }
         
@@ -111,6 +116,8 @@ public class StorelinkCore {
                         self.onInvoiceEvent?(params)
                     case "onCheckingStoreConnectionEvent":
                         self.onCheckingStoreConnectionEvent?(params)
+                    case "onSignOut":
+                        self.onSignOut?(params)
                     default:
                         break // or handle unknown functionName
                     }
@@ -122,8 +129,16 @@ public class StorelinkCore {
             NotificationCenter.default.removeObserver(self, name: self.notificationName, object: nil)
         }
 
-        public func sendDataToReactNative(data: [AnyHashable: Any]) {
+        private func sendDataToReactNative(data: [AnyHashable: Any]) {
             NotificationCenter.default.post(name: Notification.Name("CooklistDataFromNative"), object: nil, userInfo: data)
+        }
+      
+        public func signOut() {
+          let data: [String: Any] = [
+              "_cooklistInternal": true,
+              "eventType": "cooklist_sdk_event_logout",
+          ]
+          self.sendDataToReactNative(data: data)
         }
 
         // public func sendDataToReactNativeAndWait(data: [AnyHashable: Any]) async throws -> [AnyHashable: Any]? {
