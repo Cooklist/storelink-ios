@@ -3,6 +3,8 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
+  s.platform = :ios
+  s.ios.deployment_target = '13.0'
   s.name         = package['name']
   s.module_name  = package['name']
   s.version      = package['version']
