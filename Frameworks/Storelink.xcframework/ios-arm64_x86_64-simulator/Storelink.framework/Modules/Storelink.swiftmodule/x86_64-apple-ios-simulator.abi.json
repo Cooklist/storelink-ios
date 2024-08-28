@@ -2306,28 +2306,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "filePath": "\/Users\/brunovillanova\/Development\/cooklist\/RNSDKExample2\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 34,
       "value": "\"cooklist_sdk_view_complete_event\""
     },
     {
-      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkViewController.swift",
+      "filePath": "\/Users\/brunovillanova\/Development\/cooklist\/RNSDKExample2\/ios\/Storelink\/StorelinkViewController.swift",
       "kind": "StringLiteral",
       "offset": 851,
       "length": 23,
       "value": "\"Storelink.StorelinkViewController\""
     },
     {
-      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/Storelink\/StorelinkCore.swift",
+      "filePath": "\/Users\/brunovillanova\/Development\/cooklist\/RNSDKExample2\/ios\/Storelink\/StorelinkCore.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 20,
       "value": "\"cooklist_sdk_event\""
     },
     {
-      "filePath": "\/Users\/alexandervitanov\/Projects\/General\/StorelinkProject\/ios\/StorelinkModule.swift",
+      "filePath": "\/Users\/brunovillanova\/Development\/cooklist\/RNSDKExample2\/ios\/StorelinkModule.swift",
       "kind": "StringLiteral",
       "offset": 94,
       "length": 15,
