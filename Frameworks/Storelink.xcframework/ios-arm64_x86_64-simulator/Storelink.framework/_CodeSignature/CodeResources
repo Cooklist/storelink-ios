@@ -55,7 +55,7 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZKZc75tFwNMFq0TT65OD1yIVcYI=
+		pplWkJ3NlNZF2PQHm8a1M8CAXWA=
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w5WDN4TMVGfsuV5frhK2+IRz+BE=
+		jTH8XoX/OAVhv8+R7bM4zH/Tu8I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hucgpgRYdML8W65QgncgBLd0znHzv+25GRJaFP9SnIg=
+			8aMumNXLqj7XXPL3gW886D/D2huNIZgVEx0RpOtJ63Q=
 			</data>
 		</dict>
 		<key>Modules/Storelink.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Tqcf2r5eWYqnrmGuICo0meK3op3klz4uvmAOpsFJmc=
+			TQlOQPTgQeouBCFMEaga5jWlKnqriBWXxIRwZM24OYA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
